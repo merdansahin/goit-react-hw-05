@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  height: 100%;
+  margin-top: 10px;
+}
+.input {
+  width: 200px;
+  height: 20px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: #f0f0f0;
+}
+.button {
+  width: 100px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 3px;
+  outline: none;
+}
+.button:hover {
+  background-color: darkblue;
+}
+.list {
+  margin-top: 50px;
+  margin-left: -310px;
+  width: 100%;
+}
